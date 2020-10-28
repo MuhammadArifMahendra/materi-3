@@ -51,3 +51,7 @@ Route::get('log',function(){
 Route::get('register',function(){
 	return view('register');
 });
+
+Route::get('keuangan',function(){
+	return view('keuangan');
+});
