@@ -32,3 +32,22 @@ Route::get('/elektro', function(){
 Route::get('/sipil', function(){
 	return view("sipil");
 });
+
+Route::get('template',function(){
+	return view('template.base');
+});
+Route::get('index',function(){
+	return view('index');
+});
+
+Route::get('kategori',function(){
+	return view('kategori');
+});
+
+Route::get('log',function(){
+	return view('log');
+});
+
+Route::get('register',function(){
+	return view('register');
+});
